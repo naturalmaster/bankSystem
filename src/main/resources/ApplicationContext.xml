@@ -16,6 +16,8 @@
         http://www.springframework.org/schema/tx/spring-tx-4.0.xsd"
        default-autowire="byName">
 
+    <context:component-scan base-package="dao"></context:component-scan>
+
 
         <bean id="datasource_druid" class="com.alibaba.druid.pool.DruidDataSource">
             <property name="url" value="jdbc:oracle:thin:@127.0.0.1:1521:orcl"></property>
