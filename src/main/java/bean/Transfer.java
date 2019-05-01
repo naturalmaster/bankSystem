@@ -16,7 +16,46 @@ public class Transfer {
      */
     private String type;
     private Date transTime;
-    private int transferMoney;
+    private double transferMoney;
 
 
+    public int gettId() {
+        return tId;
+    }
+
+    public void settId(int tId) {
+        this.tId = tId;
+    }
+
+    public int getaId() {
+        return aId;
+    }
+
+    public void setaId(int aId) {
+        this.aId = aId;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    public Date getTransTime() {
+        return transTime;
+    }
+
+    public void setTransTime(Date transTime) {
+        this.transTime = transTime;
+    }
+
+    public double getTransferMoney() {
+        return transferMoney;
+    }
+
+    public void setTransferMoney(double transferMoney) {
+        this.transferMoney = transferMoney;
+    }
 }

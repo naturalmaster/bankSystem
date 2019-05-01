@@ -55,11 +55,11 @@ public class AccountDaoImpl implements AccountDao {
         public Account mapRow(ResultSet rs, int rowNum) throws SQLException {
             Account account = new Account();
             account.setaId(rs.getInt("aid"));
-            account.setBalance(rs.getInt("balance"));
+            account.setBalance(rs.getDouble("balance"));
             account.setCode(rs.getString("code"));
             account.setName(rs.getString("name"));
             account.setOpenDate(rs.getDate("open_time"));
-            account.setOpenMoney(rs.getInt("open_money"));
+            account.setOpenMoney(rs.getDouble("open_money"));
             account.setPassWord(rs.getString("password"));
             account.setSex(rs.getString("sex"));
             return account;

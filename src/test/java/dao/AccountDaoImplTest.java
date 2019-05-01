@@ -26,6 +26,8 @@ public class AccountDaoImplTest {
         accountForInsert.setName("小黄");
         accountForInsert.setCode("441602199605280888");
         accountForInsert.setaId(888);
+
+
     }
 
     @Test

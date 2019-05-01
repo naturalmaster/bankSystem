@@ -16,9 +16,9 @@ public class Account {
      * 身份证号
      */
     private String code;
-    private int openMoney;
+    private double openMoney;
     private Date openDate;
-    private int balance;
+    private double balance;
 
 
     public int getaId() {
@@ -63,11 +63,11 @@ public class Account {
         this.code = code;
     }
 
-    public int getOpenMoney() {
+    public double getOpenMoney() {
         return openMoney;
     }
 
-    public void setOpenMoney(int openMoney) {
+    public void setOpenMoney(double openMoney) {
         this.openMoney = openMoney;
     }
 
@@ -79,11 +79,11 @@ public class Account {
         this.openDate = openDate;
     }
 
-    public int getBalance() {
+    public double getBalance() {
         return balance;
     }
 
-    public void setBalance(int balance) {
+    public void setBalance(double balance) {
         this.balance = balance;
     }
 }
